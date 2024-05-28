@@ -22,7 +22,7 @@ body {
 
 header {
   background-image: url("../images/scenery.png");
-  height: 820px;
+  height: 740px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -108,6 +108,51 @@ nav ul li a {
 main {
   background-image: url("../images/castle.png");
   height: 585px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.main-left {
+  width: 50%;
+  padding: 0 10%;
+  margin-top: 14%;
+}
+
+.main-left h2 {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.main-left p {
+  margin-bottom: 20px;
+}
+
+main button {
+  background-color: #5474fd;
+  color: #ffffff;
+  border: none;
+  width: 228px;
+  height: 63px;
+  cursor: pointer;
+}
+
+.main-right {
+  width: 50%;
+}
+
+.img-1 img {
+  width: 350px;
+  height: 220px;
+}
+
+.img-2 {
+  margin-left: 40px;
+}
+
+.img-1 img {
+  width: 350px;
+  height: 220px;
 }
 
 .info-links {
