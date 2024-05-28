@@ -184,27 +184,40 @@ main button{
 .info-links{
   background-color: #333333; 
   height: 340px;
-  
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.icon{
+  text-align: center;
+  margin-top: 10%;
 }
 
 
+.icon a:hover{
+  opacity: 1;
+}
 
-
-
- 
+.icon p{
+  margin: 0px;
+  opacity: 0.7;
+  transition: 0.5s;
+  cursor: pointer;
+}
 
 
 .fa-search {
-  //color: #5474fd;
+  color: #5474fd;
 }
 
 
 .fa-check-circle{
-  //color: #ff6363;
+  color: #ff6363;
 }
 
 .fa-thumbs-up{
-  //color: #5474fd;
+  color: #5474fd;
 }
 
 //Group 1
