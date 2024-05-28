@@ -1,0 +1,58 @@
+header{
+  background-image: url("../images/scenery.png");
+  height: 740px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 300px 0;
+  
+}
+
+header h1{
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+header h2{
+  font-weight: lighter;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+form{
+  background-color: #ffffff;
+  width: 653px;
+  height: 63px;
+  display: flex;
+  margin-top: 20px;
+}
+
+form input{
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+form button{
+  background: $primary-color;
+  border: none;
+  outline: none;
+  color: $text-color;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 153px;
+  
+}
+
+form  .fa-search {
+  align-self: center;
+  font-size: 0.8em;
+  margin: 10px;
+}
+
+header h3{
+  margin-top: 40px;
+}
