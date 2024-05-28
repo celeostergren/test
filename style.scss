@@ -4,9 +4,21 @@
   box-sizing: border-box;
 }
 
+$primary-color: #333333;
+$primary-color: #5474fd;
+$accent-color: #232323;
+$text-color: #ffffff;
+
+
+
+
 body{
   height: 100%;
   width: 100%;
+  color: $text-color;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
 }
 
 .container{
@@ -14,26 +26,100 @@ body{
   line-height: 1.5rem;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: sans-serif;
-  color: #ffffff;
 }
 
   
   //header
   
 header{
-    background-image: url("../images/scenery.png");
-    height: 820px;
+  background-image: url("../images/scenery.png");
+  height: 820px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 300px 0;
+  
+}
+
+header h1{
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+header h2{
+  font-weight: lighter;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+form{
+  background-color: #ffffff;
+  width: 653px;
+  height: 63px;
+  display: flex;
+  margin-top: 20px;
+}
+
+form input{
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+form button{
+  background: $primary-color;
+  border: none;
+  outline: none;
+  color: $text-color;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 153px;
+}
+
+form  .fa-search {
+  align-self: center;
+  font-size: 0.8em;
+  margin: 10px;
+}
+
+header h3{
+  margin-top: 40px;
 }
 
 
- //navbar
+//navbar
 
 nav{
   background-color: #5474fd;
-  color: white;
   height: 80px;
- }
+  font-size: 8px;
+  line-height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.logo{
+  padding: 0 10%;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+nav ul{
+  display: flex;
+  padding: 0 10%;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
 
 
 
@@ -84,6 +170,4 @@ main {
 footer{
   background-color: #232323;
   height: 168px;
-  
-
 }
