@@ -195,9 +195,87 @@ main button {
   height: 600px;
 }
 
+.box_1 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 450px;
+  height: 271px;
+  margin-top: 10%;
+  left: 20%;
+}
+
+.box_1 h2, h3, p {
+  margin-left: 10px;
+  margin: 10px;
+}
+
+.box_1 h2 {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.box_1 h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.box_1 p {
+  font-size: 10px;
+}
+
+.box_1 button {
+  margin-left: 10px;
+  margin: 10px;
+  background-color: #5474fd;
+  border: none;
+  width: 228px;
+  height: 63px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
 .content_b {
   background-image: url("../images/mscenery.png");
   height: 600px;
+}
+
+.box_2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 450px;
+  height: 271px;
+  margin-top: 10%;
+  right: 20%;
+}
+
+.box_2 h2, h3, p {
+  margin-left: 10px;
+  margin: 10px;
+}
+
+.box_2 h2 {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.box_2 h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.box_2 p {
+  font-size: 10px;
+}
+
+.box_2 button {
+  margin-left: 10px;
+  margin: 10px;
+  background-color: #5474fd;
+  border: none;
+  width: 228px;
+  height: 63px;
+  cursor: pointer;
+  color: #ffffff;
 }
 
 .reviews {
