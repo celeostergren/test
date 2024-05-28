@@ -1,0 +1,38 @@
+footer{
+  background-color: #232323;
+  height: 168px;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+ 
+}
+
+.logo_ft{
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer h2{
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.social-links{
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.social-links a{
+  margin: 0 3px;
+  
+}
+
+.social-links a:hover{
+  color: #ff6363;
+  
+}
+
+.fa-linkedin-in{
+  color: #5474fd;
+}
