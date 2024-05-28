@@ -1,1 +1,60 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  padding: 0 5%;
+  line-height: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+header {
+  background-image: url("../images/scenery.png");
+  height: 820px;
+}
+
+nav {
+  background-color: #5474fd;
+  color: white;
+  height: 80px;
+}
+
+main {
+  background-image: url("../images/castle.png");
+  height: 585px;
+}
+
+.info-links {
+  background-color: #333333;
+  height: 240px;
+}
+
+.content_a {
+  background-image: url("../images/resort2.png");
+  height: 600px;
+}
+
+.content_b {
+  background-image: url("../images/mscenery.png");
+  height: 600px;
+}
+
+.reviews {
+  background-image: url("../images/reviews.png");
+  height: 631px;
+}
+
+footer {
+  background-color: #232323;
+  height: 168px;
+}/*# sourceMappingURL=style.css.map */
